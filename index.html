@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Chetan Sharma</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/Chetan309" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/chetan-sharma-816024283/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:Chetan309044@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Chetan Sharma 👋</h2>
+        Hello! I’m a passionate Web Developer with a strong foundation in HTML, CSS, JavaScript, and SQL. I specialize in creating dynamic, responsive, and user-friendly web applications that deliver seamless experiences. With expertise in both frontend and backend development, I build websites and applications that are not only visually appealing but also efficient and scalable.         <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Hobbies</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="zoom.png" alt="Chetan Sharma">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        As a web developer, I bring a versatile skill set that spans both frontend and backend development. On the frontend, I am proficient in HTML5, CSS3, and JavaScript, enabling me to create responsive, user-friendly interfaces. I have extensive experience working with React.js to build dynamic, modern single-page applications and leverage frameworks like Bootstrap and Tailwind CSS to accelerate and enhance the design process.
+
+        On the backend, I specialize in Node.js and Express.js, crafting scalable and efficient server-side applications. My expertise extends to API development and integration, ensuring seamless communication between systems.      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="node-logo.webp" alt="node logo">
+          <span>Node.js</span>
+        </div>
+        
+        <div class="cell">
+          <img src="react-logo.webp" alt="react logo">
+          <span>React.js</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>Hobbies</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="zoom.png">
+          <p>Chetan Sharma</p>
+          <p>3rd Year Software Engineer Student </p>
+        </div>
+
+        <div class="text">
+          Beyond my passion for coding, I have a deep interest in 𝐏𝐡𝐨𝐭𝐨𝐠𝐫𝐚𝐩𝐡𝐲 and 𝐂𝐢𝐧𝐞𝐦𝐚𝐭𝐨𝐠𝐫𝐚𝐩𝐡𝐲, which allow me to channel my creativity and explore new perspectives. I enjoy capturing moments and crafting visual stories that resonate with emotion and meaning.
+
+          I am also an avid video editor, using tools like DaVinci Resolve to create high-quality, engaging content. From refining footage to weaving compelling narratives, I bring ideas to life with a sharp eye for detail and a love for storytelling. These creative pursuits complement my technical skills, offering a well-rounded approach to both problem-solving and artistic expression.        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          I’d love to hear from you! Whether you’re looking to collaborate on a project, have an exciting opportunity, or just want to say hello, feel free to reach out. Let’s connect and create something amazing together!        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
