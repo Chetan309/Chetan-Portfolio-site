@@ -10,7 +10,7 @@ This is a personal portfolio website for showcasing skills, hobbies, and contact
 - **Hobbies Section:** Showcases personal interests beyond programming.
 - **Contact Section:** Includes a contact form for direct communication.
 
-## Technologies Used 
+## Technologies Used
 
 - HTML5
 - CSS3
