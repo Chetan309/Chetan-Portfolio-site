@@ -1,7 +1,7 @@
 # Portfolio Website :- [Visit here](https://chetan-sharma.vercel.app/)
 
 This is a personal portfolio website for showcasing skills, hobbies, and contact details. The website is built using HTML, CSS, and JavaScript, with external libraries like Font Awesome and Google Fonts.
-
+ 
 ## Features
 
 - **Navigation Bar:** Contains links to GitHub, LinkedIn, and email.
